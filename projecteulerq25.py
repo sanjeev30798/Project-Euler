@@ -1,0 +1,13 @@
+t=True
+a=1
+b=1
+count=2
+while(t):
+    c=a+b
+    count+=1
+    if(len(str(c))>=1000):
+        t=False
+        break
+    a=b
+    b=c
+print(count)

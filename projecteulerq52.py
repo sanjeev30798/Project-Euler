@@ -1,0 +1,23 @@
+c=1
+t=True
+sum1=0
+while(t):
+    f1=(list)(str(c))
+    f2=(list)(str(c*2))
+    f3=(list)(str(c*3))
+    f4=(list)(str(c*4))
+    f5=(list)(str(c*5))
+    f6=(list)(str(c*6))
+    if(len(f1)==len(f2)==len(f3)==len(f4)==len(f5)==len(f6)):
+        f1.sort()
+        f2.sort()
+        f3.sort()
+        f4.sort()
+        f5.sort()
+        f6.sort()
+        if(f1==f2==f3==f4==f5==f6):
+            sum1+=1
+            break
+    c+=1
+print(c,c*2,c*3,c*4,c*5,c*6)    
+          
