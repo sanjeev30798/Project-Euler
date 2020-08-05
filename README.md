@@ -1,2 +1,2 @@
 # Project-Euler
-Solutions of Questions in Project Euler
+##### Solutions to Questions in Project Euler
